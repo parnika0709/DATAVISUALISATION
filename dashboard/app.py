@@ -119,11 +119,10 @@ def load_hotspots():
 
 @st.cache_data
 def load_founders():
-
-    if not FOUNDER_FILE.exists():
+    try:
+        return pd.read_csv(FOUNDER_FILE)
+    except pd.errors.EmptyDataError:
         return pd.DataFrame()
-
-    return pd.read_csv(FOUNDER_FILE)
 
 
 df = load_data()
@@ -180,13 +179,18 @@ st.markdown(
 st.sidebar.title("🎛️ Explore the Ecosystem")
 
 years = sorted(
-    df["year"].dropna().astype(int).unique()
+    df["year"]
+    .dropna()
+    .astype(int)
+    .unique()
+    .tolist()
 )
 
 selected_years = st.sidebar.multiselect(
     "Year",
-    years,
-    default=years
+    options=years,
+    default=years,
+    help="Select one or more years to analyze."
 )
 
 cities = sorted(
@@ -478,14 +482,26 @@ with overview_tab:
         values="funding_crore"
     ).fillna(0)
 
+    
+    heatmap_display = np.log1p(pivot)
+
     fig_heat = px.imshow(
-        pivot,
+        heatmap_display,
         aspect="auto",
         title="Funding Heatmap: City × Industry",
         labels={
-            "color": "Funding (₹ Cr)"
+             "color": "Funding Intensity (log scale)"
         }
     )
+
+    fig_heat.update_traces(
+       customdata=pivot.values,
+       hovertemplate=
+        "<b>City:</b> %{y}<br>"
+        "<b>Industry:</b> %{x}<br>"
+        "<b>Funding:</b> ₹%{customdata:,.2f} Cr"
+    )
+
 
     fig_heat.update_layout(
         height=550
@@ -516,46 +532,59 @@ with overview_tab:
         .reset_index()
     )
 
+
     fig_year = go.Figure()
 
     fig_year.add_trace(
-        go.Scatter(
-            x=yearly["year"],
-            y=yearly["startups"],
-            mode="lines+markers",
-            name="Startups"
-        )
+      go.Scatter(
+        x=yearly["year"],
+        y=yearly["startups"],
+        mode="lines+markers",
+        name="Startups",
+        hovertemplate=
+            "<b>Year:</b> %{x}<br>"
+            "<b>Startups:</b> %{y:,}<extra></extra>"
+       )
     )
 
     fig_year.add_trace(
-        go.Scatter(
-            x=yearly["year"],
-            y=yearly["funding"],
-            mode="lines+markers",
-            name="Funding (₹ Cr)",
-            yaxis="y2"
+       go.Scatter(
+        x=yearly["year"],
+        y=yearly["funding"],
+        mode="lines+markers",
+        name="Funding",
+        yaxis="y2",
+        hovertemplate=
+            "<b>Year:</b> %{x}<br>"
+            "<b>Funding:</b> ₹%{y:,.2f} Cr<extra></extra>"
         )
     )
 
     fig_year.update_layout(
         title="Startup Ecosystem Evolution",
-        xaxis_title="Year",
+        xaxis=dict(
+          title="Year",
+          tickmode="linear",
+          dtick=1
+        ),
         yaxis=dict(
-            title="Number of Startups"
+          title="Number of Startups",
+          rangemode="tozero"
         ),
         yaxis2=dict(
-            title="Funding (₹ Cr)",
-            overlaying="y",
-            side="right"
+          title="Funding (₹ Crore)",
+          overlaying="y",
+          side="right",
+          rangemode="tozero"
         ),
-        height=500
+        hovermode="x unified",
+        height=550
     )
 
     st.plotly_chart(
-        fig_year,
-        use_container_width=True
+      fig_year,
+      use_container_width=True
     )
-
 
     # ========================================================
     # SCATTER

@@ -1,0 +1,499 @@
+city,industry,startup_count,funding_crore
+Agra,E-Commerce,2,0.0
+Ahmedabad,AgriTech,1,8.0
+Ahmedabad,Cloud Tech,1,0.83
+Ahmedabad,Communication,1,0.0
+Ahmedabad,Consumer Internet,9,20.65
+Ahmedabad,E-Commerce,7,153.85999999999999
+Ahmedabad,EdTech,1,3.0
+Ahmedabad,Education,1,3.3
+Ahmedabad,Entertainment,1,0.0
+Ahmedabad,Event Management,1,623.0
+Ahmedabad,FinTech,3,1519.43
+Ahmedabad,Food,3,2.48
+Ahmedabad,Healthcare,2,148.0
+Ahmedabad,Logistics,2,6.1499999999999995
+Ahmedabad,Marketing,1,2.53
+Ahmedabad,Media,2,124.0
+Ahmedabad,Personal Care,2,31.6
+Ahmedabad,Pet Care,1,16.0
+Ahmedabad,SaaS,2,1265.0
+Ahmedabad,Technology,6,84.98
+Alleppey,Households,1,222.2
+Alwar,Food,1,0.0
+Amritsar,Transportation,1,2.48
+Anand,Healthcare,1,0.0
+Andheri,E-Commerce,1,166.0
+Andheri,Finance,1,13.13
+Azadpur,Careers,1,0.0
+Bangaluru,Finance,2,13.0
+Bangaluru,Software,1,0.0
+Bangaluru,Technology,1,0.0
+Belgaum,Delivery,1,12.0
+Belgaum,Food,1,498.0
+Belgaum,Technology,1,4.13
+Bengaluru,AI,32,2087.69
+Bengaluru,Aerospace,4,426.28
+Bengaluru,AgriTech,12,9976.03
+Bengaluru,Agriculture,4,435.21
+Bengaluru,Automotive,8,820.27
+Bengaluru,B2B,6,9544.77
+Bengaluru,Banking,2,123.75
+Bengaluru,BioTech,5,1402.9
+Bengaluru,Careers,9,775.88
+Bengaluru,Charity,1,2.6
+Bengaluru,Cloud Tech,6,274.28999999999996
+Bengaluru,Communication,3,13.83
+Bengaluru,Construction,2,178.0
+Bengaluru,Consumer Internet,163,4282.78
+Bengaluru,Content Creation,1,5.0
+Bengaluru,Cybersecurity,1,41.0
+Bengaluru,Data Analytics,9,1112.6399999999999
+Bengaluru,Delivery,9,3470.19
+Bengaluru,Design,5,3831.4700000000003
+Bengaluru,E-Commerce,84,40496.82
+Bengaluru,EV,1,834.5
+Bengaluru,EdTech,46,43748.92
+Bengaluru,Education,12,315.13
+Bengaluru,Electronics,4,125.5
+Bengaluru,Energy,4,342.95
+Bengaluru,Entertainment,17,11556.37
+Bengaluru,Event Management,3,54.0
+Bengaluru,FinTech,73,26352.48
+Bengaluru,Finance,31,7754.49
+Bengaluru,Food,34,14592.25
+Bengaluru,Gig Economy,1,7.0
+Bengaluru,Healthcare,73,10519.23
+Bengaluru,Home & Lifestyle,1,24.75
+Bengaluru,Hospitality,7,264.65999999999997
+Bengaluru,Households,4,1985.03
+Bengaluru,IT,11,539.71
+Bengaluru,Internet,3,15.29
+Bengaluru,IoT,1,77.0
+Bengaluru,Log Management,1,1574.0
+Bengaluru,Logistics,15,7613.55
+Bengaluru,Manufacturing,3,198.25
+Bengaluru,Marketing,9,3003.44
+Bengaluru,Media,14,1005.31
+Bengaluru,Personal Care,4,176.51
+Bengaluru,Real Estate,12,1172.52
+Bengaluru,Robotics,2,107.13
+Bengaluru,SaaS,6,713.06
+Bengaluru,Services,20,1287.2
+Bengaluru,Social Media,7,4856.95
+Bengaluru,Software,13,3635.29
+Bengaluru,Sports,4,932.88
+Bengaluru,Technology,158,6017.53
+Bengaluru,Transportation,18,22895.1
+Bengaluru,Travel,14,228.42
+Bhopal,AI,1,0.15
+Bhopal,E-Commerce,1,3.55
+Bhopal,EdTech,1,0.0
+Bhopal,Education,2,9.03
+Bhopal,Food,1,14.85
+Bhopal,Technology,1,0.0
+Bhubaneswar,Finance,1,189.75
+Bhubaneswar,Food,1,82.0
+Bhubaneswar,Healthcare,1,0.0
+Chandigarh,Consumer Internet,1,0.0
+Chandigarh,E-Commerce,2,0.0
+Chandigarh,EdTech,1,17.0
+Chandigarh,Electronics,1,0.0
+Chandigarh,FinTech,2,0.0
+Chandigarh,Food,1,0.0
+Chandigarh,Healthcare,2,173.25
+Chandigarh,Technology,1,0.83
+Chandigarh,Transportation,1,214.5
+Chembur,EdTech,1,2.64
+Chennai,AI,4,448.47
+Chennai,Aerospace,2,26.0
+Chennai,AgriTech,3,537.28
+Chennai,Automotive,3,174.54
+Chennai,Cloud Tech,4,136.0
+Chennai,Consumer Internet,15,601.4
+Chennai,Data Analytics,2,0.0
+Chennai,Delivery,1,12.52
+Chennai,Design,1,8.0
+Chennai,E-Commerce,8,230.54000000000002
+Chennai,EdTech,6,4282.42
+Chennai,Education,5,66.02000000000001
+Chennai,Entertainment,1,91.0
+Chennai,FinTech,15,3465.7
+Chennai,Finance,9,3459.7799999999997
+Chennai,Food,4,658.54
+Chennai,Healthcare,9,1252.75
+Chennai,Internet,1,42.9
+Chennai,IoT,1,0.55
+Chennai,Logistics,2,103.45
+Chennai,Marketing,1,58.0
+Chennai,Personal Care,6,654.34
+Chennai,SaaS,1,0.0
+Chennai,Services,1,231.0
+Chennai,Social Media,1,830.0
+Chennai,Software,3,1361.25
+Chennai,Technology,25,1638.31
+Cochin,AI,1,0.0
+Cochin,Healthcare,1,25.0
+Coimbatore,E-Commerce,1,3.71
+Coimbatore,Electronics,1,2.5
+Coimbatore,Food,1,16.5
+Coimbatore,Personal Care,1,5.0
+Coimbatore,Technology,1,2.54
+Coimbatore,Transportation,2,9.9
+Delhi,AI,1,0.0
+Delhi,AgriTech,3,75.0
+Delhi,Automotive,3,33.8
+Delhi,B2B,1,0.0
+Delhi,BioTech,2,0.0
+Delhi,Careers,5,49.0
+Delhi,Cloud Tech,3,371.25
+Delhi,Construction Tech,1,1.0
+Delhi,Consumer Internet,107,2505.7799999999997
+Delhi,Cybersecurity,1,50.5
+Delhi,Data Analytics,3,0.0
+Delhi,Dating,1,45.38
+Delhi,Delivery,5,12.200000000000001
+Delhi,Design,1,0.0
+Delhi,E-Commerce,51,10153.48
+Delhi,EV,1,0.0
+Delhi,EdTech,25,541.28
+Delhi,Education,10,340.5
+Delhi,Electronics,2,51.15
+Delhi,Energy,2,1870.5
+Delhi,Entertainment,10,4991.0
+Delhi,FinTech,18,4723.0599999999995
+Delhi,Finance,18,1863.69
+Delhi,Food,25,8319.720000000001
+Delhi,HR Tech,1,415.0
+Delhi,Healthcare,34,491.86
+Delhi,Hospitality,5,303.19
+Delhi,Households,1,2.06
+Delhi,IT,5,1586.96
+Delhi,Internet,2,9.18
+Delhi,IoT,2,5.24
+Delhi,Lifestyle,2,17.74
+Delhi,Logistics,16,5450.36
+Delhi,Manufacturing,1,320.0
+Delhi,Marketing,9,18.2
+Delhi,Media,10,99.14
+Delhi,Personal Care,16,122.87
+Delhi,Real Estate,8,122.59
+Delhi,SaaS,4,18.0
+Delhi,Services,4,16.03
+Delhi,Social Media,2,5.78
+Delhi,Software,2,68.38
+Delhi,Sports,7,380.98
+Delhi,Technology,59,1909.49
+Delhi,Transportation,9,151.65
+Delhi,Travel,8,279.61
+Delhi,Waste Management,1,0.0
+Dhingsara,Logistics,1,66.0
+Ernakulam,Data Analytics,1,0.0
+Faridabad,E-Commerce,1,200.0
+Faridabad,Healthcare,1,173.25
+Gaya,Finance,1,49.5
+Ghaziabad,Internet,1,0.0
+Ghaziabad,Media,3,41.51
+Goa,E-Commerce,1,0.0
+Goa,Finance,1,20.55
+Goa,Food,1,0.0
+Goa,Healthcare,2,21.04
+Goa,Households,1,2.0
+Goa,Logistics,1,1.49
+Goa,Technology,3,18.56
+Guntur,Internet,1,1.31
+Gurugram,AI,6,678.5799999999999
+Gurugram,AgriTech,7,8807.59
+Gurugram,Automotive,8,2059.29
+Gurugram,B2B,2,0.0
+Gurugram,Careers,2,7.72
+Gurugram,Communication,1,3.0
+Gurugram,Consulting,1,36.03
+Gurugram,Consumer Internet,69,3491.22
+Gurugram,Cybersecurity,1,0.07
+Gurugram,Data Analytics,2,257.5
+Gurugram,Dating,1,1.0
+Gurugram,Delivery,4,21.04
+Gurugram,E-Commerce,41,10835.03
+Gurugram,EdTech,14,861.55
+Gurugram,Education,8,51.910000000000004
+Gurugram,Electronics,1,581.0
+Gurugram,Energy,2,29.15
+Gurugram,Entertainment,8,2219.64
+Gurugram,Event Management,2,3.38
+Gurugram,FinTech,21,15477.720000000001
+Gurugram,Finance,12,1460.99
+Gurugram,Fintech,1,403.43
+Gurugram,Food,22,16691.04
+Gurugram,HR Tech,2,126.0
+Gurugram,Healthcare,25,2495.43
+Gurugram,Hospitality,4,6720.25
+Gurugram,Households,1,0.0
+Gurugram,IT,4,83.17
+Gurugram,IoT,2,11.23
+Gurugram,Logistics,12,5558.75
+Gurugram,Marketing,1,0.0
+Gurugram,Media,4,22.1
+Gurugram,Personal Care,10,754.73
+Gurugram,Real Estate,7,223.1
+Gurugram,Retail,1,376.8
+Gurugram,SaaS,3,694.06
+Gurugram,Services,12,1626.35
+Gurugram,Social Media,4,481.78
+Gurugram,Software,1,12.12
+Gurugram,Sports,1,0.0
+Gurugram,Technology,37,2106.82
+Gurugram,Transportation,6,403.63
+Gurugram,Travel,5,165.0
+Gurugram,Water Solutions,1,9.9
+Gwalior,Consumer Internet,1,4.13
+Haryana,Airlines,1,4000.0
+Haryana,EdTech,1,33.0
+Haryana,FinTech,1,127.88
+Haryana,Finance,1,120.0
+Haryana,Healthcare,1,505.0
+Haryana,Media,1,0.0
+Haryana,Technology,1,656.5
+Haryana,Transportation,1,2.4
+Haryana,Travel,1,0.0
+Hubli,E-Commerce,2,0.0
+Hyderabad,AI,2,1.0
+Hyderabad,AgriTech,5,1028.0
+Hyderabad,Communication,1,33.0
+Hyderabad,Consumer Internet,24,897.92
+Hyderabad,Design,2,83.67
+Hyderabad,E-Commerce,9,308.38
+Hyderabad,EdTech,5,2945.76
+Hyderabad,Education,1,5.36
+Hyderabad,Electronics,1,0.0
+Hyderabad,Energy,2,1352.8
+Hyderabad,Entertainment,3,168.06
+Hyderabad,FinTech,6,575.0
+Hyderabad,Finance,4,292.88
+Hyderabad,Food,2,12.38
+Hyderabad,HR Tech,2,121.0
+Hyderabad,Healthcare,14,271.51
+Hyderabad,Households,3,58.760000000000005
+Hyderabad,Internet,3,2.29
+Hyderabad,Logistics,5,489.7
+Hyderabad,Marketing,2,9.129999999999999
+Hyderabad,Media,3,34.65
+Hyderabad,Personal Care,2,57.5
+Hyderabad,Services,2,7.01
+Hyderabad,Software,2,577.5
+Hyderabad,Technology,21,523.2
+Hyderabad,Transportation,3,1.57
+Hyderabad,Travel,1,0.0
+Hyderabad,Waste Management,1,214.5
+Indore,AI,1,62.0
+Indore,AgriTech,1,0.0
+Indore,Construction,1,42.0
+Indore,Consumer Internet,5,10.7
+Indore,E-Commerce,3,116.1
+Indore,EdTech,1,0.0
+Indore,Entertainment,1,300.35
+Indore,Food,1,2.4
+Indore,Logistics,1,3.09
+Indore,Marketing,1,0.0
+Indore,Technology,2,0.0
+Jaipur,AgriTech,1,18.0
+Jaipur,Automotive,1,1320.0
+Jaipur,Banking,1,0.0
+Jaipur,Careers,1,0.0
+Jaipur,Consumer Internet,14,476.14
+Jaipur,E-Commerce,6,2043.6
+Jaipur,EdTech,3,11.959999999999999
+Jaipur,Education,2,53.63
+Jaipur,Energy,1,400.0
+Jaipur,FinTech,3,1681.0
+Jaipur,Finance,2,708.0
+Jaipur,Food,2,91.25
+Jaipur,Healthcare,2,13.21
+Jaipur,Personal Care,1,123.75
+Jaipur,Real Estate,1,0.0
+Jaipur,Technology,2,2.06
+Jaipur,Transportation,1,0.0
+Jaipur,Travel,1,10.1
+Jodhpur,AgriTech,1,8491.0
+Jodhpur,Consumer Internet,1,1.32
+Jodhpur,Hospitality,1,1.0
+Kalpakkam,Finance,1,0.0
+Kalpakkam,Healthcare,1,2100.0
+Kancheepuram,AgriTech,1,0.0
+Kannur,AI,1,0.24
+Kanpur,Consumer Internet,2,1.65
+Kanpur,Marketing,1,0.17
+Kanpur,Media,1,8.0
+Kanpur,Technology,2,35.0
+Karur,E-Commerce,1,0.0
+Kerala,Technology,1,0.22
+Kochi,AI,1,0.0
+Kochi,AgriTech,1,39.0
+Kochi,Consumer Internet,1,0.0
+Kochi,Data Analytics,1,1.65
+Kochi,EdTech,1,25.0
+Kochi,Healthcare,2,174.0
+Kochi,Technology,2,0.0
+Kolkata,AI,1,164.0
+Kolkata,B2B,1,179.28
+Kolkata,Consumer Internet,8,1.7999999999999998
+Kolkata,Data Analytics,1,11.11
+Kolkata,E-Commerce,2,74.25
+Kolkata,Education,1,0.0
+Kolkata,FinTech,2,82.5
+Kolkata,Finance,3,163.6
+Kolkata,Food,2,2513.56
+Kolkata,Healthcare,4,472.0
+Kolkata,Hospitality,1,0.0
+Kolkata,IT,1,0.83
+Kolkata,IoT,1,2.0
+Kolkata,Personal Care,1,0.0
+Kolkata,Technology,6,2499.41
+Kolkata,Transportation,1,0.0
+Kota,Households,1,0.0
+Kota,Marketing,1,0.02
+Kozhikode,Technology,1,0.0
+Kurawar,Food,1,3.0
+Lucknow,Education,1,8.25
+Lucknow,Media,1,0.0
+Mohali,Agriculture,1,0.0
+Mumbai,AI,8,155.37
+Mumbai,Aerospace,1,0.0
+Mumbai,AgriTech,4,1206.0
+Mumbai,Agriculture,1,0.0
+Mumbai,Automotive,8,5707.27
+Mumbai,B2B,4,234.46
+Mumbai,Banking,1,0.5
+Mumbai,Careers,2,2761.38
+Mumbai,Cloud Tech,1,0.0
+Mumbai,Consumer Goods,3,0.0
+Mumbai,Consumer Internet,124,8647.05
+Mumbai,Content Creation,1,415.0
+Mumbai,Crowdfunding,2,643.13
+Mumbai,Cybersecurity,2,37.37
+Mumbai,Data Analytics,7,83.15
+Mumbai,Delivery,7,431.39
+Mumbai,Design,1,0.0
+Mumbai,E-Commerce,62,8725.470000000001
+Mumbai,EV,1,0.0
+Mumbai,EdTech,21,4392.32
+Mumbai,Education,8,3180.7200000000003
+Mumbai,Energy,4,4025.03
+Mumbai,Entertainment,8,314.63
+Mumbai,Event Management,1,12.3
+Mumbai,FinTech,42,8667.98
+Mumbai,Finance,42,25832.43
+Mumbai,Food,43,5327.28
+Mumbai,Healthcare,40,6222.04
+Mumbai,Hospitality,1,0.2
+Mumbai,Households,1,837.75
+Mumbai,IT,3,48.25
+Mumbai,Internet,1,50.0
+Mumbai,IoT,1,9.02
+Mumbai,Logistics,19,1080.6
+Mumbai,Marketing,12,387.72
+Mumbai,Media,9,446.57
+Mumbai,Networking,1,30.09
+Mumbai,Personal Care,25,2409.35
+Mumbai,Pet Care,1,66.0
+Mumbai,Real Estate,7,315.61
+Mumbai,SaaS,2,3030.0
+Mumbai,Services,15,15242.18
+Mumbai,Social Media,3,689.0
+Mumbai,Software,2,50.0
+Mumbai,Sports,5,3740.65
+Mumbai,Technology,80,5370.88
+Mumbai,Transportation,10,1270.0900000000001
+Mumbai,Travel,3,36.28
+Mumbai,Waste Management,2,1.32
+Mussoorie,Technology,1,2.89
+Nagpur,E-Commerce,2,1.18
+Nagpur,Finance,1,0.0
+Noida,AI,2,28.0
+Noida,AgriTech,2,386.0
+Noida,Automotive,1,0.0
+Noida,Careers,1,55.05
+Noida,Consumer Internet,21,442.22
+Noida,Data Analytics,1,8.25
+Noida,Delivery,1,5.0
+Noida,E-Commerce,12,4683.26
+Noida,EV,1,2.0
+Noida,EdTech,9,1790.79
+Noida,Education,4,74.3
+Noida,Energy,2,55.629999999999995
+Noida,Entertainment,1,19.8
+Noida,FinTech,7,1110.66
+Noida,Finance,5,99.73
+Noida,Food,2,11.9
+Noida,Healthcare,4,331.65
+Noida,Hospitality,1,20.2
+Noida,Households,1,0.41
+Noida,Internet,2,9.91
+Noida,IoT,1,0.0
+Noida,Logistics,2,44.0
+Noida,Media,1,34.24
+Noida,Networking,2,6.35
+Noida,Personal Care,1,332.0
+Noida,Real Estate,1,0.0
+Noida,Services,3,169.0
+Noida,Technology,20,765.47
+Noida,Transportation,1,0.0
+Noida,Travel,2,525.5
+Panaji,Technology,1,6.81
+Panaji,Transportation,1,0.0
+Patna,AgriTech,2,596.0
+Pune,AI,2,0.02
+Pune,AgriTech,5,167.07
+Pune,Automotive,1,0.0
+Pune,BioTech,1,0.0
+Pune,Consumer Internet,18,859.26
+Pune,Data Analytics,2,123.75
+Pune,Design,1,0.0
+Pune,E-Commerce,11,2790.63
+Pune,EdTech,4,1965.88
+Pune,Education,2,9.0
+Pune,Entertainment,2,670.73
+Pune,Event Management,2,4.04
+Pune,FinTech,10,1418.42
+Pune,Finance,1,0.0
+Pune,Food,10,492.62
+Pune,Gig Economy,2,91.0
+Pune,Healthcare,17,1991.59
+Pune,IT,2,33.0
+Pune,Logistics,3,252.13
+Pune,Media,2,16.5
+Pune,Social Media,1,0.0
+Pune,Software,2,0.0
+Pune,Sports,1,0.0
+Pune,Technology,33,2122.15
+Pune,Transportation,1,194.25
+Pune,Travel,2,38.89
+Secunderabad,Media,1,0.0
+Siliguri,E-Commerce,1,49.5
+Srinagar,E-Commerce,1,0.0
+Surabardi,Logistics,1,378.0
+Surat,Technology,2,298.9
+Taramani,AI,1,314.16
+Thane,AgriTech,1,4.68
+Thane,Healthcare,2,10.0
+Thane,IT,1,1665.0
+Thane,Personal Care,1,0.0
+Thane,Technology,1,6242.0
+Thiruvananthapuram,Healthcare,1,0.0
+Tirunelveli,Food,1,42.0
+Trivandrum,Consumer Internet,1,0.83
+Trivandrum,Robotics,1,166.0
+Trivandrum,Technology,1,0.0
+Udaipur,Healthcare,1,4.13
+Udupi,Software,1,99.0
+Udupi,Technology,1,0.0
+Uttar Pradesh,E-Commerce,1,0.0
+Vadodara,Consumer Internet,3,9.69
+Vadodara,E-Commerce,2,16.5
+Vadodara,EV,2,0.0
+Vadodara,Food,2,34.24
+Vadodara,Technology,1,0.0
+Vadodara,Transportation,1,3.71
+Varanasi,Healthcare,1,0.43
+Warangal,AI,1,0.0
+Worli,Personal Care,1,0.0

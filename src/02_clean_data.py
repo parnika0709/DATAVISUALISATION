@@ -293,14 +293,31 @@ def main():
 
     df["funding_crore"] = df["funding_crore"].apply(parse_money)
 
-    df["funding_date"] = pd.to_datetime(
-        df["funding_date"],
-        errors="coerce",
-        dayfirst=True
+    
+    # ---------------------------------------------------------
+# Parse funding date and extract year
+# ---------------------------------------------------------
+
+    df["funding_date"] = (
+      df["funding_date"]
+      .astype(str)
+      .str.strip()
     )
 
-    df["year"] = df["funding_date"].dt.year
+    df["funding_date"] = pd.to_datetime(
+      df["funding_date"],
+      errors="coerce",
+      dayfirst=True
+    )
 
+    df["year"] = df["funding_date"].dt.year.astype("Int64")
+
+    print("\nYear extraction:")
+    print(
+      df["year"]
+      .value_counts(dropna=False)
+      .sort_index()
+    )
     # ---------------------------------------------------------
     # Remove obvious duplicate rows
     # ---------------------------------------------------------
