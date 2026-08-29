@@ -210,6 +210,11 @@ def main():
         "Date of Funding",
         "Funding Date"
     ])
+    year_col = find_column(df, [
+        "Year",
+        "Funding Year",
+        "yr"
+    ])
 
     round_col = find_column(df, [
         "Funding Round",
@@ -255,6 +260,9 @@ def main():
     if date_col:
         rename_map[date_col] = "funding_date"
 
+    if year_col:
+        rename_map[year_col] = "year"
+
     if round_col:
         rename_map[round_col] = "funding_round"
 
@@ -275,6 +283,7 @@ def main():
         "funding_date",
         "funding_round",
         "investors"
+        "year"
     ]
 
     for column in required_columns:
@@ -293,31 +302,16 @@ def main():
 
     df["funding_crore"] = df["funding_crore"].apply(parse_money)
 
-    
     # ---------------------------------------------------------
-# Parse funding date and extract year
-# ---------------------------------------------------------
+    # Clean year column (already present in raw data)
+    # ---------------------------------------------------------
 
-    df["funding_date"] = (
-      df["funding_date"]
-      .astype(str)
-      .str.strip()
-    )
-
-    df["funding_date"] = pd.to_datetime(
-      df["funding_date"],
-      errors="coerce",
-      dayfirst=True
-    )
-
-    df["year"] = df["funding_date"].dt.year.astype("Int64")
+    df["year"] = pd.to_numeric(df["year"], errors="coerce").astype("Int64")
 
     print("\nYear extraction:")
-    print(
-      df["year"]
-      .value_counts(dropna=False)
-      .sort_index()
-    )
+    print(df["year"].value_counts(dropna=False).sort_index())
+    print(f"\nRows with valid year: {df['year'].notna().sum()} / {len(df)}")
+    
     # ---------------------------------------------------------
     # Remove obvious duplicate rows
     # ---------------------------------------------------------
@@ -354,6 +348,7 @@ def main():
 
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
+    df = df.drop(columns=["investorsyear"], errors="ignore")
     df.to_csv(OUTPUT_FILE, index=False)
 
     print("\n" + "=" * 70)
