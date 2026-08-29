@@ -616,7 +616,9 @@ with overview_tab:
         labels={
             "startups": "Number of Startups",
             "funding": "Funding (₹ Crore)"
-        }
+        },
+        log_x=True,
+        log_y=True
     )
 
     fig_scatter.update_traces(
